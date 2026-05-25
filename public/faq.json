@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "question": "How do I reset my password?",
+    "answer": "Go to the login page and click 'Forgot Password'. Enter your registered email and we'll send a reset link. The link expires in 24 hours.",
+    "category": "Account"
+  },
+  {
+    "id": 2,
+    "question": "How do I update my billing information?",
+    "answer": "Log in, go to Settings > Billing, and click 'Update Payment Method'. We accept all major credit cards and PayPal.",
+    "category": "Billing"
+  },
+  {
+    "id": 3,
+    "question": "Why is my account locked?",
+    "answer": "Accounts lock after 5 failed login attempts. Wait 30 minutes for auto-unlock or contact support to unlock immediately.",
+    "category": "Account"
+  },
+  {
+    "id": 4,
+    "question": "How do I cancel my subscription?",
+    "answer": "Go to Settings > Subscription > Cancel Plan. Access continues until the end of your billing period. No cancellation fees.",
+    "category": "Billing"
+  },
+  {
+    "id": 5,
+    "question": "The app is running slowly or freezing",
+    "answer": "Clear your browser cache and cookies. Disable browser extensions and make sure you're on a supported browser: Chrome, Firefox, Edge, or Safari.",
+    "category": "Technical"
+  },
+  {
+    "id": 6,
+    "question": "How do I change my email address?",
+    "answer": "Go to Settings > Profile > Contact Info. Enter your new email and verify it via the confirmation link we send you.",
+    "category": "Account"
+  },
+  {
+    "id": 7,
+    "question": "What payment methods do you accept?",
+    "answer": "We accept Visa, Mastercard, American Express, PayPal, Apple Pay, and Google Pay. Cryptocurrency is not currently supported.",
+    "category": "Billing"
+  },
+  {
+    "id": 8,
+    "question": "How do I enable two-factor authentication?",
+    "answer": "Go to Settings > Security > Two-Factor Authentication. Use an authenticator app like Google Authenticator or Authy, or receive codes via SMS.",
+    "category": "Account"
+  },
+  {
+    "id": 9,
+    "question": "I am not receiving email notifications",
+    "answer": "Check your spam folder first. Then go to Settings > Notifications and ensure email alerts are enabled. Add noreply@ourapp.com to your contacts.",
+    "category": "Technical"
+  },
+  {
+    "id": 10,
+    "question": "How do I request a refund?",
+    "answer": "Refunds are available within 30 days of purchase. Contact support with your order ID. Approved refunds are processed in 5-7 business days.",
+    "category": "Billing"
+  },
+  {
+    "id": 11,
+    "question": "Why am I seeing a 500 error on the dashboard?",
+    "answer": "A 500 error means a server-side issue. Refresh after a few minutes. If it persists, check status.ourapp.com or contact support with the error timestamp.",
+    "category": "Technical"
+  },
+  {
+    "id": 12,
+    "question": "Can I use my account on multiple devices?",
+    "answer": "Yes, your account supports up to 5 simultaneous devices. Business plan users have unlimited devices.",
+    "category": "Account"
+  },
+  {
+    "id": 13,
+    "question": "How do I export or download my data?",
+    "answer": "Go to Settings > Privacy > Export Data to download a ZIP with all your data in JSON and CSV format. Export takes up to 2 hours.",
+    "category": "Account"
+  },
+  {
+    "id": 14,
+    "question": "Why was I charged twice?",
+    "answer": "Duplicate charges can occur during payment retries. Contact billing with both transaction IDs and we will investigate and refund promptly.",
+    "category": "Billing"
+  },
+  {
+    "id": 15,
+    "question": "Why is my file upload failing?",
+    "answer": "Maximum file size is 50MB. Supported formats: PDF, PNG, JPG, DOCX, XLSX, CSV. Try a stable connection or a different browser.",
+    "category": "Technical"
+  }
+]
