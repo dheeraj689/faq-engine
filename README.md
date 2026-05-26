@@ -155,3 +155,6 @@ faq-search/
 ├── package.json
 └── README.md
 ```
+
+## Hours Spent
+I have spent 4 hours working on this project.
