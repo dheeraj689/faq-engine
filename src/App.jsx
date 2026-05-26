@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 import { buildIndex, search } from "./searchEngine";
+import faqData from "../public/faq.json";
 import "./App.css";
 
 const CATEGORIES = ["All", "Billing", "Technical", "Account"];
@@ -55,10 +56,13 @@ export default function App() {
   const inputRef = useRef(null);
 
   useEffect(() => {
-    fetch("/faq-engine/faq.json")
-        .then((r) => r.json())
-        .then((data) => { buildIndex(data); setFaqs(data); setReady(true); })
-        .catch(() => setError("Failed to load FAQ data. Please refresh."));
+    try {
+      buildIndex(faqData);
+      setFaqs(faqData);
+      setReady(true);
+    } catch (e) {
+      setError("Failed to load FAQ data. Please refresh.");
+    }
   }, []);
 
   useEffect(() => { if (ready) inputRef.current?.focus(); }, [ready]);
