@@ -1,3 +1,6 @@
+#Live Site
+https://dheeraj689.github.io/faq-engine/
+
 # FAQ Search
 
 A single-page web application where users type a question and get up to 3 matching FAQ entries, ranked by relevance using TF-IDF + cosine similarity — all in-browser with no backend or paid APIs.
