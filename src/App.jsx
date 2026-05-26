@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 import { buildIndex, search } from "./searchEngine";
-import faqData from "../public/faq.json";
+import faqData from "./faq.json";
 import "./App.css";
 
 const CATEGORIES = ["All", "Billing", "Technical", "Account"];
