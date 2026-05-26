@@ -55,7 +55,7 @@ export default function App() {
   const inputRef = useRef(null);
 
   useEffect(() => {
-    fetch("/faq.json")
+    fetch("/faq-engine/faq.json")
         .then((r) => r.json())
         .then((data) => { buildIndex(data); setFaqs(data); setReady(true); })
         .catch(() => setError("Failed to load FAQ data. Please refresh."));
